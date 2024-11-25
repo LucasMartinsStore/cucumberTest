@@ -4,6 +4,7 @@
   "main": "index.js",
   "scripts": {
     "play:open": "npx playwright test --ui",
+    "play:debug": "npx playwright test --debug",
     "cu:open": "cucumber-js test"
 
   },
