@@ -1,0 +1,19 @@
+{
+  "name": "playwrith",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "play:open": "npx playwright test --ui",
+    "cu:open": "cucumber-js test"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.1.0",
+    "@playwright/test": "^1.49.0",
+    "@types/node": "^22.9.3"
+  }
+}

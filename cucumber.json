@@ -1,0 +1,6 @@
+{
+    "default":{
+        "paths": ["tests/features"],
+        "require": ["tests/step_definitions/*.js"]
+    }
+}
